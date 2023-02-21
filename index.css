@@ -71,10 +71,29 @@ ul {
 
 .card-img-top {
     border: solid .5em #e6e6e6;
-    width: 424px;
-    height: 287px;
+    /*width: 424px;*/
+    /*height: 287px;*/
 }
 
 p, span {
     margin: .3em;
+}
+
+.last {
+    /*width: 105px;*/
+    /*height: 105px;*/
+    border: solid .5em #e6e6e6;
+    display: flex;
+    padding: 0px;
+!important;
+    margin: 0px;
+!important;
+}
+
+.last-span {
+    padding: 0px;
+!important;
+    margin: 0px;
+!important;
+
 }
