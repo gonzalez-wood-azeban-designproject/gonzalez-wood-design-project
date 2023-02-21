@@ -3,7 +3,15 @@
 !important;
     margin: 0;
 !important;
-    font-family: 'Abel', sans-serif;;
+}
+
+.navbar-brand {
+    font-size: 3em;
+}
+
+.nav-link {
+    font-size: 1.5em;
+    padding-bottom: 0;
 }
 
 body {
@@ -15,13 +23,13 @@ h1, h2 {
 }
 
 h1 {
-    font-size: xxx-large;
-    margin-bottom: 1em;
+    font-size: 5em;
+    margin-bottom: .5em;
     margin-top: 1em;
 }
 
 h2 {
-    font-size: xx-large;
+    font-size: 2.5em;
 }
 
 ul {
@@ -32,7 +40,7 @@ ul {
 
 .circle {
     color: white;
-    font-weight: bold;
+    font-weight: 600;!important;
     display: flex;
     border: solid white 5px;
     border-radius: 100%;
@@ -45,7 +53,7 @@ ul {
 .sm-circle {
     font-weight: bold;
     display: flex;
-    border: 0px;
+    border: 0;
     border-radius: 100%;
     width: 18px;
     height: 18px;
@@ -95,5 +103,4 @@ p, span {
 !important;
     margin: 0px;
 !important;
-
 }
