@@ -15,6 +15,7 @@
 }
 
 body {
+    font-family: 'Abel', sans-serif;
     background-color: #f0f0f0;
 }
 
@@ -40,7 +41,8 @@ ul {
 
 .circle {
     color: white;
-    font-weight: 600;!important;
+    font-weight: 600;
+!important;
     display: flex;
     border: solid white 5px;
     border-radius: 100%;
@@ -48,17 +50,19 @@ ul {
     height: 105px;
     justify-content: center;
     align-items: center;
+    font-family: 'Anton', sans-serif;
 }
 
 .sm-circle {
-    font-weight: bold;
+    color: black;
+!important;
     display: flex;
-    border: 0;
     border-radius: 100%;
     width: 18px;
     height: 18px;
     justify-content: center;
     align-items: center;
+    font-family: 'Anton', sans-serif;
 }
 
 .design {
@@ -103,4 +107,10 @@ p, span {
 !important;
     margin: 0px;
 !important;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5em;
+}
+
+.last-p {
+
 }
